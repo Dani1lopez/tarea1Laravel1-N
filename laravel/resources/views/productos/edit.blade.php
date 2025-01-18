@@ -41,7 +41,7 @@ Editar Producto
                 class="w-full px-4 py-3 rounded-lg border border-gray-300
                     focus:ring-2 focus:ring-blue-400 focus:border-blue-400
                     bg-white text-gray-800 shadow-sm resize-none"
-            >{{@old('nombre',$product->nombre)}}</textarea>
+            >{{@old('descripcion',$product->descripcion)}}</textarea>
         </div>
 
         <!-- Campo: Imagen del Producto -->
